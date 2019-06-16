@@ -1518,7 +1518,7 @@ jongseong_compress(ucschar a, ucschar b)
 static inline ucschar
 build_syllable(const ucschar* str, size_t len)
 {
-    int i;
+    size_t i;
     ucschar cho = 0, jung = 0, jong = 0;
 
     i = 0;
