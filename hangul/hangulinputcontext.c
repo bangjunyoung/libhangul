@@ -1240,7 +1240,7 @@ hangul_ic_flush(HangulInputContext *hic)
 bool
 hangul_ic_backspace(HangulInputContext *hic)
 {
-    int ret;
+    bool ret;
 
     if (hic == NULL)
 	return false;
